@@ -4,7 +4,7 @@ function animFunc() {
 	// console.log('test');
 
 	var tlBg = gsap.timeline({
-		paused: true,
+		paused: p1,
 		// delay: 1,
 		defaults: { ease: "power4.out", duration: .6 },
 	});
